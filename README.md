@@ -1,2 +1,1 @@
-# tunebender.github.io
-Website for BangiSubs.
+Whatever honestly.
