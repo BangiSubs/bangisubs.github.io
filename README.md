@@ -1,2 +1,2 @@
-# bangisubs.github.io
+# tunebender.github.io
 Website for BangiSubs.
