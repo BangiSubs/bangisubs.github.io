@@ -1,9 +1,9 @@
 // ALBUM COVER / TITLE
-var album = getUrlVars().a.replaceAll('+'," ");
+var album = encodeURIComponent(getUrlVars().a).replace(/%2B/g, " ");
 document.getElementById('name').innerText = decodeURIComponent(album);
-var band = getUrlVars().b.replaceAll('+'," ");
+var band = encodeURIComponent(getUrlVars().b).replace(/%2B/g, " ");
 document.getElementById('author').innerText = decodeURIComponent(band);
-var img = getUrlVars().c.replaceAll('+'," ");
+var img = encodeURIComponent(getUrlVars().c).replace(/%2B/g, " ");
 document.getElementById('art').src = tlgur + img;
 var ttl = album + ' - ' + band + ' | TruTunes';
 document.title = decodeURIComponent(ttl);
