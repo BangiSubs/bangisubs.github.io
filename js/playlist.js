@@ -1,7 +1,7 @@
 // SCRAPE URL FOR PARAMETERS
 function getUrlVars() {
     var vars = {};
-    var parts = window.location.href.replaceAll(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
         vars[key] = value;
     });
     return vars;
@@ -78,7 +78,7 @@ playlist.children[38].setAttribute('ml',m20);
 playlist.children[39].setAttribute('href',tlgur + m20);
 
 // GET AUDIO TITLES
-var t0 = getUrlVars().t0.replaceAll("+", " ");
+var t0 = getUrlVars().t0.replaceAll("+"," ");
 document.getElementById('0a').children[0].innerText = decodeURIComponent(t0);
 
 var t1 = getUrlVars().t1.replaceAll('+'," ");
