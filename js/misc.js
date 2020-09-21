@@ -1,4 +1,3 @@
-window.addEventListener('load', function () {
 // ALBUM COVER / TITLE
 var album = getUrlVars().a.replaceAll('+'," ");
 document.getElementById('name').innerText = decodeURIComponent(album);
@@ -92,4 +91,3 @@ if (v >= 21) {
     playlist.children[38].style.display = "block";
 	playlist.children[39].style.display = "block";
 }
-})
