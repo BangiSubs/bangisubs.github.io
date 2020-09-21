@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+<!--  - - - - - - - - - - - -
+:: STYLESHEET
+- - - - - - - - - - - - - -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="theme-color" content="#111111" />
+<link rel="stylesheet" type="text/css" href="css/playlist.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<style>input,select {color: #000;height:30px;line-height:30px;}
+.list {width: 44.5%;max-width: 479px;}
+p {margin: 10px 0;padding: 0;}
+hr {margin: 2em;border: 3px solid #333;}
+.button {width: 100px;}</style>
+<!--  - - - - - - - - - - - -
+:: PAGE INFO
+- - - - - - - - - - - - - -->
+<title>TruTunes - Generate Playlist</title>
+<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+</head>
+<body style="overflow-y: scroll;">
+<!--  - - - - - - - - - - - -
+:: HEADER
+- - - - - - - - - - - - - -->
+<a href="generate.html" title="Generate Playlist"><div class="header">
+<p>TruTunes</p>
+</div></a>
+
+<div class="content">
+<!--  - - - - - - - - - - - -
+:: FORM
+- - - - - - - - - - - - - -->
+<h1 style="text-align: center;">GENERATE PLAYLIST</h1>
+<form id="G1" style="text-align: center;" name="generate0" action="generate.html" onsubmit="return" method="get">
+  <p>NUMBER OF SONGS</p><br><select style="width: 90%;max-width: 960px;" type="text" name="v">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+  </select><br><br>
+  <input class="button" type="submit" value="Next">
+</form>
+<form id="G2" style="text-align: center;" name="generate1" action="playlist.html" onsubmit="return" method="get">
+  <p>NUMBER OF SONGS</p><br><input id="v" style="width: 90%;max-width: 960px;" type="text" name="v" value="1" readonly><br><br>
+  <hr>
+  <p>ALBUM ART</p><br><input style="width: 90%;max-width: 960px;" type="text" name="c" value="X" placeholder="ALBUM ART"><br><br>
+  <p>AUTHOR/BAND</p><br><input style="width: 90%;max-width: 960px;" type="text" name="b" placeholder="NAME of AUTHOR or BAND"><br><br>
+  <p>PLAYLIST/ALBUM</p><br><input style="width: 90%;max-width: 960px;" type="text" name="a" placeholder="NAME of PLAYLIST or ALBUM"><br><br>
+  <hr>
+  <p>SONG NAME / SONG CODE</p><br>
+  <div id="1"><input class="list" type="text" name="t1" placeholder="[1] Song Title">
+  <input class="list" type="text" name="m1" placeholder="[1] Song Code"><br><br></div>
+  <div id="2"><input class="list" type="text" name="t2" placeholder="[2] Song Title">
+  <input class="list" type="text" name="m2" placeholder="[2] Song Code"><br><br></div>
+  <div id="3"><input class="list" type="text" name="t3" placeholder="[3] Song Title">
+  <input class="list" type="text" name="m3" placeholder="[3] Song Code"><br><br></div>
+  <div id="4"><input class="list" type="text" name="t4" placeholder="[4] Song Title">
+  <input class="list" type="text" name="m4" placeholder="[4] Song Code"><br><br></div>
+  <div id="5"><input class="list" type="text" name="t5" placeholder="[5] Song Title">
+  <input class="list" type="text" name="m5" placeholder="[5] Song Code"><br><br></div>
+  <div id="6"><input class="list" type="text" name="t6" placeholder="[6] Song Title">
+  <input class="list" type="text" name="m6" placeholder="[6] Song Code"><br><br></div>
+  <div id="7"><input class="list" type="text" name="t7" placeholder="[7] Song Title">
+  <input class="list" type="text" name="m7" placeholder="[7] Song Code"><br><br></div>
+  <div id="8"><input class="list" type="text" name="t8" placeholder="[8] Song Title">
+  <input class="list" type="text" name="m8" placeholder="[8] Song Code"><br><br></div>
+  <div id="9"><input class="list" type="text" name="t9" placeholder="[9] Song Title">
+  <input class="list" type="text" name="m9" placeholder="[9] Song Code"><br><br></div>
+  <div id="10"><input class="list" type="text" name="t10" placeholder="[10] Song Title">
+  <input class="list" type="text" name="m10" placeholder="[10] Song Code"><br><br></div>
+  <div id="11"><input class="list" type="text" name="t11" placeholder="[11] Song Title">
+  <input class="list" type="text" name="m11" placeholder="[11] Song Code"><br><br></div>
+  <div id="12"><input class="list" type="text" name="t12" placeholder="[12] Song Title">
+  <input class="list" type="text" name="m12" placeholder="[12] Song Code"><br><br></div>
+  <div id="13"><input class="list" type="text" name="t13" placeholder="[13] Song Title">
+  <input class="list" type="text" name="m13" placeholder="[13] Song Code"><br><br></div>
+  <div id="14"><input class="list" type="text" name="t14" placeholder="[14] Song Title">
+  <input class="list" type="text" name="m14" placeholder="[14] Song Code"><br><br></div>
+  <div id="15"><input class="list" type="text" name="t15" placeholder="[15] Song Title">
+  <input class="list" type="text" name="m15" placeholder="[15] Song Code"><br><br></div>
+  <div id="16"><input class="list" type="text" name="t16" placeholder="[16] Song Title">
+  <input class="list" type="text" name="m16" placeholder="[16] Song Code"><br><br></div>
+  <div id="17"><input class="list" type="text" name="t17" placeholder="[17] Song Title">
+  <input class="list" type="text" name="m17" placeholder="[17] Song Code"><br><br></div>
+  <div id="18"><input class="list" type="text" name="t18" placeholder="[18] Song Title">
+  <input class="list" type="text" name="m18" placeholder="[18] Song Code"><br><br></div>
+  <div id="19"><input class="list" type="text" name="t19" placeholder="[19] Song Title">
+  <input class="list" type="text" name="m19" placeholder="[19] Song Code"><br><br></div>
+  <div id="20"><input class="list" type="text" name="t20" placeholder="[20] Song Title">
+  <input class="list" type="text" name="m20" placeholder="[20] Song Code"><br><br></div>
+  <input class="list" type="text" name="t0" placeholder="Last Song Title">
+  <input class="list" type="text" name="m0" placeholder="Last Song Code"><br><br>
+  <input class="button" type="reset" value="Reset"><input class="button" type="submit" value="Generate">
+</form>
+</div>
+
+<!--  - - - - - - - - - - - -
+:: JAVASCRIPT & JQUERY
+- - - - - - - - - - - - - -->
+<script>
+// SCRAPE URL FOR PARAMETERS
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
+// PAGE 1 OR 2
+var visible = getUrlVars().v;
+if (visible == null) {
+  document.getElementById('G1').style.display = "block";
+  document.getElementById('G2').style.display = "none";
+} else {
+  document.getElementById('G1').style.display = "none";
+  document.getElementById('G2').style.display = "block";
+  document.getElementById('v').setAttribute('value',visible);
+}
+
+// SHOW ON PAGE 2
+if (visible <= 20) {
+    var D20 = document.getElementById('20');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 19) {
+    var D20 = document.getElementById('19');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 18) {
+    var D20 = document.getElementById('18');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 17) {
+    var D20 = document.getElementById('17');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 16) {
+    var D20 = document.getElementById('16');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 15) {
+    var D20 = document.getElementById('15');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 14) {
+    var D20 = document.getElementById('14');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 13) {
+    var D20 = document.getElementById('13');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 12) {
+    var D20 = document.getElementById('12');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 11) {
+    var D20 = document.getElementById('11');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 10) {
+    var D20 = document.getElementById('10');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 9) {
+    var D20 = document.getElementById('9');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 8) {
+    var D20 = document.getElementById('8');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 7) {
+    var D20 = document.getElementById('7');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 6) {
+    var D20 = document.getElementById('6');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 5) {
+    var D20 = document.getElementById('5');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 4) {
+    var D20 = document.getElementById('4');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 3) {
+    var D20 = document.getElementById('3');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 2) {
+    var D20 = document.getElementById('2');
+	D20.parentNode.removeChild(D20);
+}
+if (visible <= 1) {
+    var D20 = document.getElementById('1');
+	D20.parentNode.removeChild(D20);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+/* ==========================
+:: Template Name: TruTunes Charcoal
+:: CSS Identity: Playlist
+:: Template Designer: NaeemBolchhi
+:: Template Designer URI: https://naeembolchhi.github.io/
+:: Telegram Profile: https://t.me/NaeemBolchhi
+:: Description: Made for the playlist page of TruTunes.
+:: Version: v1.0
+:: Created: 19/09/2020
+========================== */
+
+/* --------------------------
+:: Fonts
+-------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+/* --------------------------
+:: General
+-------------------------- */
+* {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: #111;
+  margin: 0;
+  padding: 0;
+}
+audio {
+  background: #000;
+  width: 100%;
+}
+.tcenter {
+  text-align: center;
+}
+
+/* --------------------------
+:: Size and Orientation
+-------------------------- */
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 118px;
+}
+@media only screen and (min-width: 768px) {
+  .card {width: 40% !important;}
+}
+/* --------------------------
+:: Audio Player
+-------------------------- */
+.audiobox {
+  box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  background: #111;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  text-align: center;
+}
+.now {
+  margin: 0;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+/* --------------------------
+:: Header
+-------------------------- */
+.header {
+  width: 100%;
+  background: #111;
+  border-bottom: 2px solid #222;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  box-shadow: -5px 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.header p {
+  margin: 15px 30px;
+  font-weight: 700;
+}
+
+/* --------------------------
+:: Album Card
+-------------------------- */
+.card {
+  box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2), -4px -4px 8px 0 rgba(0,0,0,0.2), 4px -4px 8px 0 rgba(0,0,0,0.2), -4px 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60%;
+  margin: 0 auto;
+  background: #222;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+}
+.card:hover {
+  border-bottom: 1px solid #555;
+  background: #333;
+}
+.title {
+  padding: 2px 16px;
+}
+#name {
+  font-size: 1.3em;
+  margin: 0;
+  padding-top: 8px;
+}
+#author {
+  margin: 0;
+  font-size: 0.9em;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
+
+/* --------------------------
+:: Playlist
+-------------------------- */
+.rowling {
+  margin: 0 25px;
+  margin-top: 35px;
+  box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2), -4px -4px 8px 0 rgba(0,0,0,0.2), 4px -4px 8px 0 rgba(0,0,0,0.2), -4px 4px 8px 0 rgba(0,0,0,0.2);
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="cols-"] {
+  float: left;
+  background: #222;
+  border-bottom: 1px solid #333;
+  height: 50px;
+  line-height: 50px;
+}
+[class*="cols-"]:hover {
+  cursor: pointer;
+  background: #333;
+  border-bottom: 1px solid #555;
+}
+[class*="cols-"] p:hover {
+  color: #f22;
+}
+.cols-1 {width: 8.33%;}
+.cols-2 {width: 16.66%;}
+.cols-3 {width: 25%;}
+.cols-4 {width: 33.33%;}
+.cols-5 {width: 41.66%;}
+.cols-6 {width: 50%;}
+.cols-7 {width: 58.33%;}
+.cols-8 {width: 66.66%;}
+.cols-9 {width: 75%;}
+.cols-10 {width: 83.33%;}
+.cols-11 {width: 91.66%;}
+.cols-12 {width: 100%;}
+.rowtext {
+  margin: 0;
+  font-size: 1.2em;
+  padding: 0 15px;
+}
+.rowlast {
+  border-bottom: 0;
+}
