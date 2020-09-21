@@ -1,3 +1,4 @@
+window.addEventListener('load', function () {
 // SCRAPE URL FOR PARAMETERS
 function getUrlVars() {
     var vars = {};
@@ -121,3 +122,4 @@ var t19 = getUrlVars().t19.replaceAll('+'," ");
 playlist.children[36].children[0].innerText = decodeURIComponent(t19);
 var t20 = getUrlVars().t20.replaceAll('+'," ");
 playlist.children[38].children[0].innerText = decodeURIComponent(t20);
+})
