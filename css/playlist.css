@@ -20,6 +20,7 @@
 * {
   color: #fff;
   font-family: "Ubuntu", sans-serif;
+  word-wrap: break-word;
 }
 body {
   background: #111;
@@ -45,6 +46,9 @@ audio {
 }
 @media only screen and (min-width: 768px) {
   .card {width: 40% !important;}
+  #name {font-size: 1em;}
+  #author {font-size: 0.8em;}
+  .rowtext {font-size: 0.9em;}
 }
 /* --------------------------
 :: Audio Player
