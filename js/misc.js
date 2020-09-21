@@ -1,6 +1,3 @@
-// FUCK YOU
-if (m0 == null) {document.getElementsByTagName('body')[0].innerHTML = "";}
-
 // ALBUM COVER / TITLE
 var album = getUrlVars().a.replaceAll('+'," ");
 document.getElementById('name').innerText = decodeURIComponent(album);
