@@ -46,6 +46,8 @@ audio {
 }
 @media only screen and (min-width: 768px) {
   .card {width: 40% !important;}
+}
+@media only screen and (max-width: 768px) {
   #name {font-size: 1em !important;}
   #author {font-size: 0.8em !important;}
   .rowtext {font-size: 0.9em !important;}
