@@ -1,2 +1,2 @@
-## TruTunes
-# A playlist tool for tlgur hosted music.
+# TruTunes
+## A playlist tool for tlgur hosted music.
