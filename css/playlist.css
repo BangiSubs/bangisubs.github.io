@@ -46,9 +46,9 @@ audio {
 }
 @media only screen and (min-width: 768px) {
   .card {width: 40% !important;}
-  #name {font-size: 1em;}
-  #author {font-size: 0.8em;}
-  .rowtext {font-size: 0.9em;}
+  #name {font-size: 1em !important;}
+  #author {font-size: 0.8em !important;}
+  .rowtext {font-size: 0.9em !important;}
 }
 /* --------------------------
 :: Audio Player
