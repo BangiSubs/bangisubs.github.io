@@ -13,14 +13,25 @@
 :: PAGE INFO
 - - - - - - - - - - - - - -->
 <title>TruTunes Playlist</title>
-<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+<link rel="icon" type="image/png" sizes="32x32" href="img/fav32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/fav16.png">
+<!--  - - - - - - - - - - - -
+:: LINK PARSER
+- - - - - - - - - - - - - -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TruTunes">
+<meta property="og:title" content="TruTunes Playlist">
+<meta property="og:description" content="Custom playlists on the go. PLAY, DOWNLOAD, and SHARE your favourite music.">
+<meta property="og:url" content="https://trutunes.github.io/playlist.html">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://trutunes.github.io/img/preview.jpg">
 </head>
 <body style="overflow-y: scroll;">
 <!--  - - - - - - - - - - - -
 :: HEADER
 - - - - - - - - - - - - - -->
-<a href="#" title="TruTunes"><div class="header">
-<p>TruTunes</p>
+<a href="/" title="TruTunes"><div class="header">
+<img title="TruTunes" alt="TruTunes" src="img/logo.png" />
 </div></a>
 
 <!--  - - - - - - - - - - - -
@@ -39,7 +50,7 @@ Your browser does not support the audio element.
 :: ALBUM CARD
 - - - - - - - - - - - - - -->
 <div class="card">
-  <img id="art" src="https://upload.wikimedia.org/wikipedia/en/6/69/Toy_album_artwork.jpeg" alt="Avatar" style="width:100%;">
+  <img id="art" src="img/art.webp" alt="Album Art" style="width:100%;">
   <div class="title">
     <h3 id="name">Playlist/Album</h3> 
     <p id="author">Author/Band</p> 
