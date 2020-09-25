@@ -41,8 +41,8 @@ audio {
 .content {
   max-width: 960px;
   margin: 0 auto;
-  margin-top: 118px;
-  margin-bottom: 118px;
+  margin-top: 120px;
+  margin-bottom: 124px;
 }
 @media only screen and (min-width: 768px) {
   .card {width: 40% !important;}
